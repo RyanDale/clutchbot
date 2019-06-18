@@ -28,11 +28,9 @@ const controller = Botkit.slackbot(config).configureSlackApp(
 );
 
 controller.setupWebserver(process.env.PORT, (err, webserver) => {
-    console.log('setup webserver');
     controller.createWebhookEndpoints(controller.webserver);
 
     controller.createOauthEndpoints(controller.webserver, (err, req, res) => {
-        console.log('create oauth endpoints');
         if (err) {
             res.status(500).send('ERROR: ' + err);
         } else {
@@ -43,9 +41,7 @@ controller.setupWebserver(process.env.PORT, (err, webserver) => {
 
 controller.on('slash_command', (slashCommand, message) => {
     // Invalid token
-    console.log('execute command');
     if (message.token !== process.env.VERIFICATION_TOKEN) {
-        console.log('Invalid token', message.token, process.env.VERIFICATION_TOKEN);
         return;
     }
 
