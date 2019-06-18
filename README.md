@@ -34,6 +34,7 @@ CLIENT_ID=279750809847.667457704052
 CLIENT_SECRET=Slack App's Client Secret
 VERIFICATION_TOKEN=Slack App's Verification Code
 CARD_URL=Url to where the card images are hosted
+MONGOLAB_URI=Inside of MongoDB Atlas, select connect => connect to app => Node.js => 2.0.14 or earlier, then copy in the URI 
 ```
 4. Restart the server
 5. Once restarted, open the web app and go to the /login url
