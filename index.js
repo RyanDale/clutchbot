@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const axios = require('axios');
 const Botkit = require('botkit');
 
 if (!process.env.CLIENT_ID || !process.env.CLIENT_SECRET || !process.env.PORT || !process.env.VERIFICATION_TOKEN) {
@@ -54,16 +55,22 @@ controller.on('slash_command', (slashCommand, message) => {
 
             const name = message.text;
             const fileName = name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~() ]/g, "").toLowerCase();
-            const card = {
-                attachments: [
-                    {
-                        fallback: "Player card not found",
-                        pretext: name,
-                        image_url: `${process.env.CARD_URL}/${fileName}.png`
-                    }
-                ]
-            };
-            slashCommand.replyPublic(message, card);
+            const cardUrl = `${process.env.CARD_URL}/${fileName}.png`;
+            axios.get(cardUrl).then(() => {
+                const card = {
+                    attachments: [
+                        {
+                            fallback: "Card not found",
+                            pretext: name,
+                            image_url: cardUrl
+                        }
+                    ]
+                };
+                slashCommand.replyPublic(message, card);
+            }).catch(() => {
+                slashCommand.replyPublic(message, `Card with the name "${name}" not found!`);
+            });
+
             break;
         default:
             slashCommand.replyPublic(message, "Command not recognized.");
