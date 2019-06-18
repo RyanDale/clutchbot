@@ -1,7 +1,7 @@
 require('dotenv').config();
 
-const axios = require('axios');
 const Botkit = require('botkit');
+const find = require('./find');
 
 if (!process.env.CLIENT_ID || !process.env.CLIENT_SECRET || !process.env.PORT || !process.env.VERIFICATION_TOKEN) {
     console.log('Error: Specify CLIENT_ID, CLIENT_SECRET, VERIFICATION_TOKEN and PORT in environment');
@@ -28,10 +28,10 @@ const controller = Botkit.slackbot(config).configureSlackApp(
     }
 );
 
-controller.setupWebserver(process.env.PORT, function (err, webserver) {
+controller.setupWebserver(process.env.PORT, (err, webserver) => {
     controller.createWebhookEndpoints(controller.webserver);
 
-    controller.createOauthEndpoints(controller.webserver, function (err, req, res) {
+    controller.createOauthEndpoints(controller.webserver, (err, req, res) => {
         if (err) {
             res.status(500).send('ERROR: ' + err);
         } else {
@@ -48,29 +48,7 @@ controller.on('slash_command', (slashCommand, message) => {
 
     switch (message.command) {
         case "/find":
-            if (message.text === "" || message.text === "help") {
-                slashCommand.replyPrivate(message, "Find a player or strategy card.");
-                return;
-            }
-
-            const name = message.text;
-            const fileName = name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~() ]/g, "").toLowerCase();
-            const cardUrl = `${process.env.CARD_URL}/${fileName}.png`;
-            axios.get(cardUrl).then(() => {
-                const card = {
-                    attachments: [
-                        {
-                            fallback: name,
-                            pretext: name,
-                            image_url: cardUrl
-                        }
-                    ]
-                };
-                slashCommand.replyPublic(message, card);
-            }).catch(() => {
-                slashCommand.replyPublic(message, `Card with the name "${name}" not found!`);
-            });
-
+            find(slashCommand, message);
             break;
         default:
             slashCommand.replyPublic(message, "Command not recognized.");
