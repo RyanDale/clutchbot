@@ -53,13 +53,13 @@ controller.on('slash_command', (slashCommand, message) => {
             }
 
             const name = message.text;
-            const fileName = name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~() ]/g, "");
+            const fileName = name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~() ]/g, "").toLowerCase();
             const card = {
                 attachments: [
                     {
                         fallback: "Player card not found",
                         pretext: name,
-                        image_url: "https://clutchmoment.com/wp-content/uploads/2019/06/All-Star_Pitchers8-copy.png"
+                        image_url: `${process.env.CARD_URL}/${fileName}.png`
                     }
                 ]
             };
