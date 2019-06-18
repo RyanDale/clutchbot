@@ -60,7 +60,7 @@ controller.on('slash_command', (slashCommand, message) => {
                 const card = {
                     attachments: [
                         {
-                            fallback: "Card not found",
+                            fallback: name,
                             pretext: name,
                             image_url: cardUrl
                         }
