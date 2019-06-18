@@ -27,10 +27,10 @@ const controller = Botkit.slackbot(config).configureSlackApp(
     }
 );
 
-controller.setupWebserver(process.env.PORT, function (err, webserver) {
+controller.setupWebserver(process.env.PORT, (err, webserver) => {
     controller.createWebhookEndpoints(controller.webserver);
 
-    controller.createOauthEndpoints(controller.webserver, function (err, req, res) {
+    controller.createOauthEndpoints(controller.webserver, (err, req, res) => {
         if (err) {
             res.status(500).send('ERROR: ' + err);
         } else {
