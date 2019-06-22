@@ -7,7 +7,7 @@ module.exports = function find(slashCommand, message) {
     }
 
     const name = message.text;
-    const fileName = name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()' ]/g, "").toLowerCase();
+    const fileName = name.replace(/[^a-z0-9+]+/gi, '').toLowerCase();
     const cardUrl = `${process.env.CARD_URL}/${fileName}.png`;
     axios.get(cardUrl).then(() => {
         const card = {
