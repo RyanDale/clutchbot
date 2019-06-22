@@ -49,9 +49,7 @@ controller.on('slash_command', (slashCommand, message) => {
         return;
     }
 
-    console.log(message);
-    //global.mixpanel.identify(message.user_id);
-    //global.mixpanel.people.set({ $first_name: message.user_name });
+    mixpanel.people.set(message.user_id, { $name: message.user_name });
 
     switch (message.command) {
         case "/find":
@@ -59,7 +57,10 @@ controller.on('slash_command', (slashCommand, message) => {
             break;
         default:
             slashCommand.replyPublic(message, "Command not recognized.");
-            global.mixpanel.track('commandNotFound', message);
+            global.mixpanel.track('commandNotFound', {
+                ...message,
+                distinct_id: message.user_id
+            });
 
     }
 
