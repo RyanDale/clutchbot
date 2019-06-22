@@ -55,6 +55,8 @@ controller.on('slash_command', (slashCommand, message) => {
             break;
         default:
             slashCommand.replyPublic(message, "Command not recognized.");
+            global.mixpanel.track('commandNotFound', message);
+
     }
 
 });
