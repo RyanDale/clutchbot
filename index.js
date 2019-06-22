@@ -49,7 +49,7 @@ controller.on('slash_command', (slashCommand, message) => {
         return;
     }
 
-    //global.mixpanel.identify(message.user_id);
+    global.mixpanel.identify(message.user_id);
     //global.mixpanel.people.set({ $name: message.user_name });
 
     switch (message.command) {
