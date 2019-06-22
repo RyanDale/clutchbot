@@ -10,9 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
-    "dotenv": "^8.0.0",
     "botkit": "0.0.5",
     "botkit-storage-mongo": "^1.0.2",
+    "dotenv": "^8.0.0",
+    "mixpanel": "^0.10.2",
     "mongodb": "^1.4.39"
   }
 }

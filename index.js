@@ -1,7 +1,10 @@
 require('dotenv').config();
 
 const Botkit = require('botkit');
+const Mixpanel = require('mixpanel');
 const find = require('./find');
+
+global.mixpanel = Mixpanel.init(process.env.MIXPANEL_TOKEN);
 
 if (!process.env.CLIENT_ID || !process.env.CLIENT_SECRET || !process.env.PORT || !process.env.VERIFICATION_TOKEN) {
     console.log('Error: Specify CLIENT_ID, CLIENT_SECRET, VERIFICATION_TOKEN and PORT in environment');

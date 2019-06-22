@@ -20,7 +20,16 @@ module.exports = function find(slashCommand, message) {
             ]
         };
         slashCommand.replyPublic(message, card);
+        global.mixpanel.track('findCard', {
+            ...message,
+            fileName: fileName,
+            success: true,
+        });
     }).catch(() => {
         slashCommand.replyPublic(message, `Card with the name "${name}" not found!`);
+        global.mixpanel.track('findCard', {
+            ...message,
+            success: false,
+        });
     });
 }
