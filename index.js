@@ -2,7 +2,12 @@ require('dotenv').config();
 
 const Botkit = require('botkit');
 const Mixpanel = require('mixpanel');
+const booster = require('./booster');
 const find = require('./find');
+const create_draft = require('./create_draft');
+const end_draft = require('./end_draft');
+const join_draft = require('./join_draft');
+const connectToDB = require('./utils/connectToDB');
 
 global.mixpanel = Mixpanel.init(process.env.MIXPANEL_TOKEN);
 
@@ -23,24 +28,27 @@ if (process.env.MONGOLAB_URI) {
     };
 }
 
+connectToDB();
+
 const controller = Botkit.slackbot(config).configureSlackApp(
     {
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
-        scopes: ['commands'],
+        scopes: ['commands', 'incoming-webhook']
     }
 );
 
 controller.setupWebserver(process.env.PORT, (err, webserver) => {
-    controller.createWebhookEndpoints(controller.webserver);
-
-    controller.createOauthEndpoints(controller.webserver, (err, req, res) => {
-        if (err) {
-            res.status(500).send('ERROR: ' + err);
-        } else {
-            res.send('Success!');
-        }
-    });
+    controller
+        .createHomepageEndpoint(controller.webserver)
+        .createOauthEndpoints(controller.webserver, (err, req, res) => {
+            if (err) {
+                res.status(500).send('ERROR: ' + err);
+            } else {
+                res.send('Success!');
+            }
+        })
+        .createWebhookEndpoints(controller.webserver);
 });
 
 controller.on('slash_command', (slashCommand, message) => {
@@ -55,13 +63,31 @@ controller.on('slash_command', (slashCommand, message) => {
         case "/find":
             find(slashCommand, message);
             break;
+        case "/booster":
+            booster(slashCommand, message);
+            break;
+        case "/create_draft":
+            create_draft(slashCommand, message);
+            break;
+        case "/end_draft":
+            end_draft(slashCommand, message);
+            break;
+        case "/join_draft":
+            join_draft(slashCommand, message);
+            break;
         default:
             slashCommand.replyPublic(message, "Command not recognized.");
             global.mixpanel.track('commandNotFound', {
                 ...message,
                 distinct_id: message.user_id
             });
-
     }
+});
 
+controller.on('block_actions', function(bot, message) {
+    console.log("BLOCK_ACTIONS");
+});
+
+controller.on('interactive_message_callback', function(bot, message) {
+    console.log("INTERACTIVE_MESSAGE_CALLBACK");
 });

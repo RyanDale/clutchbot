@@ -26,4 +26,4 @@ const DraftSchema = new Schema({
     }
 });
 
-module.exports = Account = mongoose.model('Draft', DraftSchema);
+module.exports = Draft = mongoose.model('Draft', DraftSchema);
