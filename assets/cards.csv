@@ -1,0 +1,700 @@
+﻿1,2019,Series 1,Pitcher,Max Scherzer,R
+2,2019,Series 1,Pitcher,Jacob deGrom,R
+3,2019,Series 1,Pitcher,Clayton Kershaw,R
+4,2019,Series 1,Pitcher,Corey Kluber,R
+5,2019,Series 1,Pitcher,Justin Verlander,R
+6,2019,Series 1,Pitcher,Chris Sale,R
+7,2019,Series 1,Pitcher,Blake Snell,R
+8,2019,Series 1,Pitcher,Miles Mikolas,R
+9,2019,Series 1,Pitcher,Zack Greinke,R
+10,2019,Series 1,Pitcher,Walker Buehler,R
+11,2019,Series 1,Pitcher,Luis Severino,R
+12,2019,Series 1,Pitcher,Aaron Nola,R
+13,2019,Series 1,Pitcher,Gerrit Cole,R
+14,2019,Series 1,Pitcher,Alex Wood,U
+15,2019,Series 1,Pitcher,Stephen Strasburg,R
+16,2019,Series 1,Pitcher,Carlos Carrasco,U
+17,2019,Series 1,Pitcher,Wade LeBlanc,U
+18,2019,Series 1,Pitcher,James Paxton,U
+19,2019,Series 1,Pitcher,Jhoulys Chacin,U
+20,2019,Series 1,Pitcher,Brad Peacock,U
+21,2019,Series 1,Pitcher,Charlie Morton,U
+22,2019,Series 1,Pitcher,David Price,U
+23,2019,Series 1,Pitcher,Mike Clevinger,U
+24,2019,Series 1,Pitcher,Noah Syndergaard,U
+25,2019,Series 1,Pitcher,Nathan Eovaldi,C
+26,2019,Series 1,Pitcher,Madison Bumgarner,R
+27,2019,Series 1,Pitcher,Kyle Hendricks,C
+28,2019,Series 1,Pitcher,Rich Hill,U
+29,2019,Series 1,Pitcher,Daniel Mengden,U
+30,2019,Series 1,Pitcher,Masahiro Tanaka,C
+31,2019,Series 1,Pitcher,Luis Castillo,U
+32,2019,Series 1,Pitcher,Kyle Freeland,U
+33,2019,Series 1,Pitcher,German Marquez,U
+34,2019,Series 1,Pitcher,Mike Minor,U
+35,2019,Series 1,Pitcher,Trevor Bauer,C
+36,2019,Series 1,Pitcher,Collin McHugh,U
+37,2019,Series 1,Pitcher,Chase Anderson,U
+38,2019,Series 1,Pitcher,Jose Berrios,R
+39,2019,Series 1,Pitcher,Mike Foltynewicz,R
+40,2019,Series 1,Pitcher,Jameson Taillon,U
+41,2019,Series 1,Pitcher,Ivan Nova,C
+42,2019,Series 1,Pitcher,Mike Leake,U
+43,2019,Series 1,Pitcher,Jake Arrieta,U
+44,2019,Series 1,Pitcher,Patrick Corbin,U
+45,2019,Series 1,Pitcher,Dan Straily,C
+46,2019,Series 1,Pitcher,Zack Wheeler,C
+47,2019,Series 1,Pitcher,J.A. Happ,C
+48,2019,Series 1,Pitcher,Andrew Heaney,U
+49,2019,Series 1,Pitcher,Marcus Stroman,U
+50,2019,Series 1,Pitcher,Danny Duffy,U
+51,2019,Series 1,Pitcher,Jack Flaherty,C
+52,2019,Series 1,Pitcher,Jakob Junis,C
+53,2019,Series 1,Pitcher,Jon Lester,R
+54,2019,Series 1,Pitcher,Jose Quintana,C
+55,2019,Series 1,Pitcher,Chris Archer,C
+56,2019,Series 1,Pitcher,Michael Fulmer,U
+57,2019,Series 1,Pitcher,Robbie Ray,C
+58,2019,Series 1,Pitcher,Brandon Woodruff,C
+59,2019,Series 1,Pitcher,Kevin Gausman,C
+60,2019,Series 1,Pitcher,Kyle Gibson,U
+61,2019,Series 1,Pitcher,Marco Gonzales,C
+62,2019,Series 1,Pitcher,Cole Hamels,C
+63,2019,Series 1,Pitcher,Rick Porcello,C
+64,2019,Series 1,Pitcher,Alex Cobb,C
+65,2019,Series 1,Pitcher,Reynaldo Lopez,U
+66,2019,Series 1,Pitcher,Carlos Martinez,U
+67,2019,Series 1,Pitcher,Tanner Roark,C
+68,2019,Series 1,Pitcher,Robbie Erlin,C
+69,2019,Series 1,Pitcher,Zack Godley,C
+70,2019,Series 1,Pitcher,Trevor Williams,C
+71,2019,Series 1,Pitcher,Ian Kennedy,C
+72,2019,Series 1,Pitcher,Kenta Maeda,C
+73,2019,Series 1,Pitcher,Mike Fiers,C
+74,2019,Series 1,Pitcher,Revor Richards,C
+75,2019,Series 1,Pitcher,Julio Teheran,C
+76,2019,Series 1,Pitcher,Jose Urena,C
+77,2019,Series 1,Pitcher,Lance Lynn,C
+78,2019,Series 1,Pitcher,Antonio Senzatela,C
+79,2019,Series 1,Pitcher,Joe Musgrove,C
+80,2019,Series 1,Pitcher,Nick Pivetta,C
+81,2019,Series 1,Pitcher,Tyler Anderson,C
+82,2019,Series 1,Pitcher,Matthew Boyd,C
+83,2019,Series 1,Pitcher,Dylan Bundy,C
+84,2019,Series 1,Pitcher,Carlos Rodon,C
+85,2019,Series 1,Pitcher,Jeff Samardzija,C
+86,2019,Series 1,Pitcher,Joey Lucchesi,C
+87,2019,Series 1,Pitcher,Sean Newcomb,C
+88,2019,Series 1,Pitcher,Jake Odorizzi,C
+89,2019,Series 1,Pitcher,Eric Lauer,C
+90,2019,Series 1,Pitcher,Frankie Montas,C
+91,2019,Series 1,Pitcher,Michael Pineda,C
+92,2019,Series 1,Pitcher,Clayton Richard,C
+93,2019,Series 1,Pitcher,Wei-Yin Chen,C
+94,2019,Series 1,Pitcher,Anibal Sanchez,C
+95,2019,Series 1,Pitcher,Vince Velasquez,C
+96,2019,Series 1,Pitcher,Trevor Cahill,C
+97,2019,Series 1,Pitcher,Andrew Cashner,C
+98,2019,Series 1,Pitcher,Jordan Zimmermann,C
+99,2019,Series 1,Pitcher,Matt Shoemaker,C
+100,2019,Series 1,Pitcher,Chris Stratton,C
+101,2019,Series 1,Pitcher,Lucas Giolito,C
+102,2019,Series 1,Pitcher,Steven Matz,C
+103,2019,Series 1,Pitcher,Luke Weaver,C
+104,2019,Series 1,Pitcher,Andrew Triggs,C
+105,2019,Series 1,Pitcher,Tyler Glasnow,C
+106,2019,Series 1,Pitcher,Matt Harvey,C
+107,2019,Series 1,Pitcher,Ariel Jurado,C
+108,2019,Series 1,Pitcher,Tyson Ross,C
+109,2019,Series 1,Pitcher,Sam Gaviglio,C
+110,2019,Series 1,Pitcher,Josh Hader,R
+111,2019,Series 1,Pitcher,Sean Doolittle,U
+112,2019,Series 1,Pitcher,Diego Castillo,C
+113,2019,Series 1,Pitcher,Kenley Jansen,R
+114,2019,Series 1,Pitcher,Andrew Miller,U
+115,2019,Series 1,Pitcher,Chad Green,C
+116,2019,Series 1,Pitcher,Pat Neshek,U
+117,2019,Series 1,Pitcher,Yusmeiro Petit,U
+118,2019,Series 1,Pitcher,Pedro Strop,U
+119,2019,Series 1,Pitcher,Edwin Diaz,R
+120,2019,Series 1,Pitcher,Jose Alvarado,U
+121,2019,Series 1,Pitcher,Ryan Brasier,U
+122,2019,Series 1,Pitcher,Aroldis Chapman,U
+123,2019,Series 1,Pitcher,Keone Kela,U
+124,2019,Series 1,Pitcher,Wade Davis,R
+125,2019,Series 1,Pitcher,Roberto Osuna,C
+126,2019,Series 1,Pitcher,Taylor Rogers,C
+127,2019,Series 1,Pitcher,Blake Treinen,R
+128,2019,Series 1,Pitcher,Brad Hand,U
+129,2019,Series 1,Pitcher,Jose Leclerc,U
+130,2019,Series 1,Pitcher,Brandon Morrow,C
+131,2019,Series 1,Pitcher,Dellin Betances,U
+132,2019,Series 1,Pitcher,Alex Colome,R
+133,2019,Series 1,Pitcher,Yoshihisa Hirano,U
+134,2019,Series 1,Pitcher,Felipe Vazquez,R
+135,2019,Series 1,Pitcher,Kirby Yates,C
+136,2019,Series 1,Pitcher,Archie Bradley,U
+137,2019,Series 1,Pitcher,Raisel Iglesias,C
+138,2019,Series 1,Pitcher,Carl Edwards Jr.,U
+139,2019,Series 1,Pitcher,Richard Rodriguez,C
+140,2019,Series 1,Pitcher,Tony Watson,U
+141,2019,Series 1,Pitcher,Tyler Olson,C
+142,2019,Series 1,Pitcher,Craig Stammen,U
+143,2019,Series 1,Pitcher,Matt Strahm,C
+144,2019,Series 1,Pitcher,Arodys Vizcaino,U
+145,2019,Series 1,Pitcher,John Brebbia,C
+146,2019,Series 1,Pitcher,Will Harris,C
+147,2019,Series 1,Pitcher,Corey Knebel,C
+148,2019,Series 1,Pitcher,Addison Reed,U
+149,2019,Series 1,Pitcher,Richard Bleier,C
+150,2019,Series 1,Pitcher,Chaz Roe,U
+151,2019,Series 1,Pitcher,Anthony Swarzak,C
+152,2019,Series 1,Pitcher,Ken Giles,C
+153,2019,Series 1,Pitcher,Seung Hwan Oh,C
+154,2019,Series 1,Pitcher,Joakim Soria,C
+155,2019,Series 1,Pitcher,Jesse Chavez,C
+156,2019,Series 1,Pitcher,Shane Greene,C
+157,2019,Series 1,Pitcher,Jared Hughes,C
+158,2019,Series 1,Pitcher,Tommy Hunter,C
+159,2019,Series 1,Pitcher,Kevin McCarthy,C
+160,2019,Series 1,Pitcher,Ryan Pressly,U
+161,2019,Series 1,Pitcher,Scott Alexander,C
+162,2019,Series 1,Pitcher,Shawn Armstrong,C
+163,2019,Series 1,Pitcher,Jarlin Garcia,C
+164,2019,Series 1,Pitcher,Mychal Givens,U
+165,2019,Series 1,Pitcher,Darren O'Day,C
+166,2019,Series 1,Pitcher,Jace Fry,C
+167,2019,Series 1,Pitcher,Joe Kelly,C
+168,2019,Series 1,Pitcher,Jeremy Jeffress,C
+169,2019,Series 1,Pitcher,Matt Barnes,U
+170,2019,Series 1,Pitcher,Dan Otero,C
+171,2019,Series 1,Pitcher,Adam Conley,C
+172,2019,Series 1,Pitcher,Luis Garcia,C
+173,2019,Series 1,Pitcher,Blaine Hardy,C
+174,2019,Series 1,Pitcher,Scott Oberg,C
+175,2019,Series 1,Pitcher,Robert Gsellman,C
+176,2019,Series 1,Pitcher,Jeurys Familia,C
+177,2019,Series 1,Pitcher,Nate Jones,C
+178,2019,Series 1,Pitcher,Chris Martin,C
+179,2019,Series 1,Pitcher,Chasen Bradford,C
+180,2019,Series 1,Pitcher,Drew Steckenrider,C
+181,2019,Series 1,Pitcher,Mike Wright,C
+182,2019,Series 1,Pitcher,Heath Hembree,C
+183,2019,Series 1,Pitcher,Cam Bedrosian,C
+184,2019,Series 1,Pitcher,Andrew Chafin,C
+185,2019,Series 1,Pitcher,Tim Hill,C
+186,2019,Series 1,Pitcher,Ryan Tepera,C
+187,2019,Series 1,Pitcher,Miguel Castro,C
+188,2019,Series 1,Pitcher,Brian Flynn,C
+189,2019,Series 1,Pitcher,Sam Freeman,C
+190,2019,Series 1,Pitcher,Matt Grace,C
+191,2019,Series 1,Pitcher,Adam Morgan,C
+192,2019,Series 1,Pitcher,Kyle Barraclough,C
+193,2019,Series 1,Pitcher,Buck Farmer,C
+194,2019,Series 1,Pitcher,Hansel Robles,C
+195,2019,Series 1,Pitcher,Amir Garrett,C
+196,2019,Series 1,Pitcher,Mark Melancon,C
+197,2019,Series 1,Pitcher,Joe Biagini,C
+198,2019,Series 1,Pitcher,Trevor Hildenberger,C
+199,2019,Series 1,Pitcher,Sam Dyson,C
+200,2019,Series 1,Pitcher,Luke Gregerson,C
+201,2019,Series 1,Batter,J.T. Realmuto,R
+202,2019,Series 1,Batter,Buster Posey,R
+203,2019,Series 1,Batter,Francisco Cervelli,U
+204,2019,Series 1,Batter,Willson Contreras,U
+205,2019,Series 1,Batter,Tucker Barnhart,U
+206,2019,Series 1,Batter,Kurt Suzuki,U
+207,2019,Series 1,Batter,Salvador Perez,U
+208,2019,Series 1,Batter,Yadier Molina,U
+209,2019,Series 1,Batter,Jorge Alfaro,C
+210,2019,Series 1,Batter,Gary Sanchez,C
+211,2019,Series 1,Batter,Jonathan Lucroy,C
+212,2019,Series 1,Batter,Wilson Ramos,C
+213,2019,Series 1,Batter,Tyler Flowers,U
+214,2019,Series 1,Batter,Mike Zunino,C
+215,2019,Series 1,Batter,Tony Wolters,C
+216,2019,Series 1,Batter,Jason Castro,C
+217,2019,Series 1,Batter,James McCann,C
+218,2019,Series 1,Batter,John Hicks,C
+219,2019,Series 1,Batter,Erik Kratz,C
+220,2019,Series 1,Batter,Austin Wynns,C
+221,2019,Series 1,Batter,Paul Goldschmidt,R
+222,2019,Series 1,Batter,Freddie Freeman,R
+223,2019,Series 1,Batter,Joey Votto,R
+224,2019,Series 1,Batter,Anthony Rizzo,R
+225,2019,Series 1,Batter,Rhys Hoskins,R
+226,2019,Series 1,Batter,Ryan Zimmerman,C
+227,2019,Series 1,Batter,Matt Olson,U
+228,2019,Series 1,Batter,Jesus Aguilar,C
+229,2019,Series 1,Batter,Justin Bour,C
+230,2019,Series 1,Batter,Ji-Man Choi,C
+231,2019,Series 1,Batter,Edwin Encarnacion,C
+232,2019,Series 1,Batter,Ryan O-Hearn,C
+233,2019,Series 1,Batter,Jose Abreau,U
+234,2019,Series 1,Batter,Brandon Belt,U
+235,2019,Series 1,Batter,Justin Smoak,U
+236,2019,Series 1,Batter,Yuli Gurriel,C
+237,2019,Series 1,Batter,Eric Hosmer,C
+238,2019,Series 1,Batter,Miguel Cabrera,C
+239,2019,Series 1,Batter,Yonder Alonso,C
+240,2019,Series 1,Batter,Carlos Santana,C
+241,2019,Series 1,Batter,Josh Bell,C
+242,2019,Series 1,Batter,Kendrys Morales,C
+243,2019,Series 1,Batter,Jake Bauers,C
+244,2019,Series 1,Batter,Mark Trumbo,C
+245,2019,Series 1,Batter,Daniel Murphy,C
+246,2019,Series 1,Batter,Robinson Cano,U
+247,2019,Series 1,Batter,Matt Carpenter,U
+248,2019,Series 1,Batter,Max Muncy,R
+249,2019,Series 1,Batter,Jake Lamb,U
+250,2019,Series 1,Batter,Wil Myers,C
+251,2019,Series 1,Batter,Pedro Alvarez,C
+252,2019,Series 1,Batter,Trey Mancini,C
+253,2019,Series 1,Batter,Ian Desmond,C
+254,2019,Series 1,Batter,Cody Bellinger,C
+255,2019,Series 1,Batter,Joey Gallo,U
+256,2019,Series 1,Batter,Jose Altuve,R
+257,2019,Series 1,Batter,Scooter Gennett,C
+258,2019,Series 1,Batter,Cesar Hernandez,U
+259,2019,Series 1,Batter,Dustin Pedroia,C
+260,2019,Series 1,Batter,Ozzie Albies,C
+261,2019,Series 1,Batter,Joe Panik,C
+262,2019,Series 1,Batter,Kolten Wong,C
+263,2019,Series 1,Batter,Dee Gordon,C
+264,2019,Series 1,Batter,Starlin Castro,C
+265,2019,Series 1,Batter,Jonathan Schoop,C
+266,2019,Series 1,Batter,Jason Kipnis,C
+267,2019,Series 1,Batter,Yoan Moncada,C
+268,2019,Series 1,Batter,Rougned Odor,C
+269,2019,Series 1,Batter,Jose Ramirez,R
+270,2019,Series 1,Batter,Travis Shaw,U
+271,2019,Series 1,Batter,Ian Kinsler,U
+272,2019,Series 1,Batter,Jurickson Profar,C
+273,2019,Series 1,Batter,Eduardo Escobar,C
+274,2019,Series 1,Batter,Javier Baez,U
+275,2019,Series 1,Batter,Gleyber Torres,U
+276,2019,Series 1,Batter,Adalberto Mondesi,C
+277,2019,Series 1,Batter,Jonathan Villar,C
+278,2019,Series 1,Batter,Chris Taylor,U
+279,2019,Series 1,Batter,Whit Merrifield,R
+280,2019,Series 1,Batter,Ketel Marte,C
+281,2019,Series 1,Batter,Adam Frazier,C
+282,2019,Series 1,Batter,Nolan Arenado,R
+283,2019,Series 1,Batter,Justin Turner,U
+284,2019,Series 1,Batter,Anthony Rendon,U
+285,2019,Series 1,Batter,Kris Bryant,U
+286,2019,Series 1,Batter,Eugenio Suarez,U
+287,2019,Series 1,Batter,Matt Chapman,U
+288,2019,Series 1,Batter,Matt Duffy,C
+289,2019,Series 1,Batter,Miguel Andujar,U
+290,2019,Series 1,Batter,Evan Longoria,C
+291,2019,Series 1,Batter,Todd Frazier,C
+292,2019,Series 1,Batter,Yolmer Sanchez,C
+293,2019,Series 1,Batter,Rafael Devers,C
+294,2019,Series 1,Batter,Renato Nunez,C
+295,2019,Series 1,Batter,Jeimer Candelario,C
+296,2019,Series 1,Batter,Colin Moran,C
+297,2019,Series 1,Batter,Kyle Seager,C
+298,2019,Series 1,Batter,Maikel Franco,C
+299,2019,Series 1,Batter,Martin Prado,C
+300,2019,Series 1,Batter,Alex Bregman,U
+301,2019,Series 1,Batter,Zack Cozart,C
+302,2019,Series 1,Batter,Brian Anderson,U
+303,2019,Series 1,Batter,Francisco Lindor,R
+304,2019,Series 1,Batter,Trevor Story,U
+305,2019,Series 1,Batter,Andrelton Simmons,U
+306,2019,Series 1,Batter,Corey Seager,C
+307,2019,Series 1,Batter,Xander Bogaerts,U
+308,2019,Series 1,Batter,Trea Turner,R
+309,2019,Series 1,Batter,Carlos Correa,U
+310,2019,Series 1,Batter,Jean Segura,U
+311,2019,Series 1,Batter,Elvis Andrus,U
+312,2019,Series 1,Batter,Paul DeJong,C
+313,2019,Series 1,Batter,Jose Peraza,C
+314,2019,Series 1,Batter,Nick Ahmed,C
+315,2019,Series 1,Batter,Brandon Crawford,U
+316,2019,Series 1,Batter,Willy Adames,C
+317,2019,Series 1,Batter,Lourdes Gurriel Jr.,C
+318,2019,Series 1,Batter,Marcus Semien,C
+319,2019,Series 1,Batter,Dansby Swanson,C
+320,2019,Series 1,Batter,Orlando Arcia,C
+321,2019,Series 1,Batter,Jordy Mercer,C
+322,2019,Series 1,Batter,J.P. Crawford,C
+323,2019,Series 1,Batter,Amed Rosario,C
+324,2019,Series 1,Batter,Tim Anderson,C
+325,2019,Series 1,Batter,Iasiah Kiner-Falefa,C
+326,2019,Series 1,Batter,Miguel Rojas,C
+327,2019,Series 1,Batter,Niko Goodrum,C
+328,2019,Series 1,Batter,Ryan McMahon,C
+329,2019,Series 1,Batter,J.D. Martinez,R
+330,2019,Series 1,Batter,Aaron Judge,R
+331,2019,Series 1,Batter,Giancarlo Stanton,R
+332,2019,Series 1,Batter,Charlie Blackmon,U
+333,2019,Series 1,Batter,David Peralta,U
+334,2019,Series 1,Batter,Juan Soto,R
+335,2019,Series 1,Batter,Nelson Cruz,C
+336,2019,Series 1,Batter,Adam Eaton,C
+337,2019,Series 1,Batter,Khris Davis,R
+338,2019,Series 1,Batter,Marcell Ozuna,C
+339,2019,Series 1,Batter,Andrew McCutchen,C
+340,2019,Series 1,Batter,Justin Upton,U
+341,2019,Series 1,Batter,Michael Brantley,C
+342,2019,Series 1,Batter,Corey Dickerson,U
+343,2019,Series 1,Batter,Franmil Reyes,C
+344,2019,Series 1,Batter,Yasiel Puig,C
+345,2019,Series 1,Batter,Josh Reddick,C
+346,2019,Series 1,Batter,Domingo Santana,C
+347,2019,Series 1,Batter,Shin-Soo Choo,C
+348,2019,Series 1,Batter,Eddie Rosario,U
+349,2019,Series 1,Batter,Stephen Piscotty,C
+350,2019,Series 1,Batter,Nicholas Castellanos,U
+351,2019,Series 1,Batter,Kyle Schwarber,C
+352,2019,Series 1,Batter,Nomar Mazara,C
+353,2019,Series 1,Batter,Hunter Renfroe,C
+354,2019,Series 1,Batter,Kole Calhoun,C
+355,2019,Series 1,Batter,Austin Slater,C
+356,2019,Series 1,Batter,Ryan Braun,C
+357,2019,Series 1,Batter,Alex Gordon,C
+358,2019,Series 1,Batter,Teoscar Hernandez,C
+359,2019,Series 1,Batter,Tyler Naquin,C
+360,2019,Series 1,Batter,Mike Trout,R
+361,2019,Series 1,Batter,Lorenzo Cain,R
+362,2019,Series 1,Batter,Ender Inciarte,U
+363,2019,Series 1,Batter,Aaron Hicks,C
+364,2019,Series 1,Batter,Delino DeShields,C
+365,2019,Series 1,Batter,Starling Marte,U
+366,2019,Series 1,Batter,Mallex Smith,U
+367,2019,Series 1,Batter,Michael A. Taylor,C
+368,2019,Series 1,Batter,Kevin Kiermaier,U
+369,2019,Series 1,Batter,Jackie Bradley Jr.,U
+370,2019,Series 1,Batter,Harrison Bader,C
+371,2019,Series 1,Batter,Albert Almora Jr.,C
+372,2019,Series 1,Batter,Billy Hamilton,U
+373,2019,Series 1,Batter,Byron Buxton,C
+374,2019,Series 1,Batter,Manuel Margot,C
+375,2019,Series 1,Batter,Steven Duggar,C
+376,2019,Series 1,Batter,Kevin Pillar,C
+377,2019,Series 1,Batter,Leonys Martin,C
+378,2019,Series 1,Batter,Mookie Betts,R
+379,2019,Series 1,Batter,Christian Yelich,R
+380,2019,Series 1,Batter,Tommy Pham,U
+381,2019,Series 1,Batter,Ronald Acuna Jr.,R
+382,2019,Series 1,Batter,Mitch Haniger,U
+383,2019,Series 1,Batter,George Springer,U
+384,2019,Series 1,Batter,Andrew Benintendi,C
+385,2019,Series 1,Batter,Michael Conforto,R
+386,2019,Series 1,Batter,Jason Heyward,C
+387,2019,Series 1,Batter,Brett Gardner,C
+388,2019,Series 1,Batter,Brandon Nimmo,U
+389,2019,Series 1,Batter,Max Kepler,C
+390,2019,Series 1,Batter,Jarrod Dyson,C
+391,2019,Series 1,Batter,Brian Goodwin,C
+392,2019,Series 1,Batter,Joc Pederson,C
+393,2019,Series 1,Batter,Randal Grichuk,C
+394,2019,Series 1,Batter,Odubel Herrera,C
+395,2019,Series 1,Batter,Travais Jankowski,C
+396,2019,Series 1,Batter,Scott Schebler,C
+397,2019,Series 1,Batter,Joey Rickard,C
+398,2019,Series 1,Batter,Rajai Davis,C
+399,2019,Series 1,Batter,Joey Wendle,U
+400,2019,Series 1,Batter,Enrique Hernandez,C
+401,2019,Series 2,Pitcher,Yonny Chirinos,U
+402,2019,Series 2,Pitcher,Gio Gonzalez,R
+403,2019,Series 2,Pitcher,Sonny Gray,U
+404,2019,Series 2,Pitcher,Felix Hernandez,C
+405,2019,Series 2,Pitcher,David Hess,C
+406,2019,Series 2,Pitcher,Brad Keller,C
+407,2019,Series 2,Pitcher,Felix Pena,C
+408,2019,Series 2,Pitcher,Drew Pomeranz,C
+409,2019,Series 2,Pitcher,Edinson Volquez,C
+410,2019,Series 2,Pitcher,Adam Wainwright,C
+411,2019,Series 2,Pitcher,Matt Albers,C
+412,2019,Series 2,Pitcher,Justin Anderson,C
+413,2019,Series 2,Pitcher,Matt Andriese,C
+414,2019,Series 2,Pitcher,Pedro Baez,C
+415,2019,Series 2,Pitcher,Jalen Beeks,U
+416,2019,Series 2,Pitcher,Brad Boxberger,C
+417,2019,Series 2,Pitcher,Austin Brice,C
+418,2019,Series 2,Pitcher,Aaron Bummer,C
+419,2019,Series 2,Pitcher,Adam Cimber,C
+420,2019,Series 2,Pitcher,Steve Cishek,R
+421,2019,Series 2,Pitcher,Alex Claudio,C
+422,2019,Series 2,Pitcher,Kyle Crick,U
+423,2019,Series 2,Pitcher,Chris Devenski,U
+424,2019,Series 2,Pitcher,Jake Diekman,C
+425,2019,Series 2,Pitcher,Seranthony Dominguez,R
+426,2019,Series 2,Pitcher,Mike Dunn,C
+427,2019,Series 2,Pitcher,Roenis Elias,U
+428,2019,Series 2,Pitcher,Wilmer Font,C
+429,2019,Series 2,Pitcher,John Gant,C
+430,2019,Series 2,Pitcher,Cory Gearrin,C
+431,2019,Series 2,Pitcher,Jeanmar Gomez,C
+432,2019,Series 2,Pitcher,Liam Hendriks,C
+433,2019,Series 2,Pitcher,David Hernandez,R
+434,2019,Series 2,Pitcher,Kelvin Herrera,C
+435,2019,Series 2,Pitcher,Jordan Hicks,C
+436,2019,Series 2,Pitcher,Jonathan Holder,U
+437,2019,Series 2,Pitcher,Greg Holland,C
+438,2019,Series 2,Pitcher,Luke Jackson,C
+439,2019,Series 2,Pitcher,Joe Jimenez,C
+440,2019,Series 2,Pitcher,Shawn Kelley,C
+441,2019,Series 2,Pitcher,Brandon Kintzler,C
+442,2019,Series 2,Pitcher,Derek Law,C
+443,2019,Series 2,Pitcher,Francisco Liriano,C
+444,2019,Series 2,Pitcher,Michael Lorenzen,U
+445,2019,Series 2,Pitcher,Aaron Loup,C
+446,2019,Series 2,Pitcher,Seth Lugo,U
+447,2019,Series 2,Pitcher,Trevor May,U
+448,2019,Series 2,Pitcher,Tim Mayza,C
+449,2019,Series 2,Pitcher,Justin Miller,U
+450,2019,Series 2,Pitcher,Reyes Moronta,U
+451,2019,Series 2,Pitcher,Hector Neris,C
+452,2019,Series 2,Pitcher,Adam Ottavino,R
+453,2019,Series 2,Pitcher,Blake Parker,U
+454,2019,Series 2,Pitcher,Luis Perdomo,C
+455,2019,Series 2,Pitcher,Noe Ramirez,C
+456,2019,Series 2,Pitcher,Sergio Romo,C
+457,2019,Series 2,Pitcher,Hector Rondon,C
+458,2019,Series 2,Pitcher,Bryan Shaw,C
+459,2019,Series 2,Pitcher,Tony Sipp,C
+460,2019,Series 2,Pitcher,Will Smith,R
+461,2019,Series 2,Pitcher,Ryne Stanek,C
+462,2019,Series 2,Pitcher,Ross Stripling,R
+463,2019,Series 2,Pitcher,Daniel Stumpf,C
+464,2019,Series 2,Pitcher,Josh Tomlin,C
+465,2019,Series 2,Pitcher,Lou Trivino,C
+466,2019,Series 2,Pitcher,Hector Velazquez,C
+467,2019,Series 2,Pitcher,Matt Wisler,C
+468,2019,Series 2,Pitcher,Nick Wittgren,C
+469,2019,Series 2,Pitcher,Brandon Workman,U
+470,2019,Series 2,Pitcher,Jimmy Yacabonis,C
+471,2019,Series 2,Batter,Alex Avila,C
+472,2019,Series 2,Batter,Austin Barnes,U
+473,2019,Series 2,Batter,Robinson Chirinos,C
+474,2019,Series 2,Batter,Yasmani Grandal,C
+475,2019,Series 2,Batter,Austin Hedges,C
+476,2019,Series 2,Batter,Luke Maile,C
+477,2019,Series 2,Batter,Jeff Mathis,C
+478,2019,Series 2,Batter,Omar Narvaez,U
+479,2019,Series 2,Batter,Josh Phegley,C
+480,2019,Series 2,Batter,Kevin Plawecki,C
+481,2019,Series 2,Batter,Christian Vazquez,C
+482,2019,Series 2,Batter,Stephen Vogt,C
+483,2019,Series 2,Batter,C.J. Cron,C
+484,2019,Series 2,Batter,Mitch Moreland,C
+485,2019,Series 2,Batter,Luke Voit,U
+486,2019,Series 2,Batter,Yandy Diaz,U
+487,2019,Series 2,Batter,Tyler Austin,C
+488,2019,Series 2,Batter,Jose Martinez,U
+489,2019,Series 2,Batter,Dominic Smith,C
+490,2019,Series 2,Batter,Hanser Alberto,C
+491,2019,Series 2,Batter,David Fletcher,C
+492,2019,Series 2,Batter,Logan Forsythe,C
+493,2019,Series 2,Batter,DJ LeMahieu,R
+494,2019,Series 2,Batter,Mike Moustakas,U
+495,2019,Series 2,Batter,Eric Sogard,C
+496,2019,Series 2,Batter,Howie Kendrick,U
+497,2019,Series 2,Batter,Jeff McNeil,R
+498,2019,Series 2,Batter,Josh Donaldson,U
+499,2019,Series 2,Batter,Johan Camargo,C
+500,2019,Series 2,Batter,Manny Machado,R
+501,2019,Series 2,Batter,Jose Iglesias,C
+502,2019,Series 2,Batter,Jorge Polanco,C
+503,2019,Series 2,Batter,Tim Beckham,C
+504,2019,Series 2,Batter,Daniel Descalso,C
+505,2019,Series 2,Batter,Brandon Drury,C
+506,2019,Series 2,Batter,Wilmer Flores,C
+507,2019,Series 2,Batter,Erik Gonzalez,C
+508,2019,Series 2,Batter,Ronny Rodriguez,C
+509,2019,Series 2,Batter,Melky Cabrera,C
+510,2019,Series 2,Batter,Dexter Fowler,C
+511,2019,Series 2,Batter,Carlos Gonzalez,U
+512,2019,Series 2,Batter,Robbie Grossman,C
+513,2019,Series 2,Batter,Mikie Mahtook,C
+514,2019,Series 2,Batter,Nick Markakis,R
+515,2019,Series 2,Batter,Daniel Palka,C
+516,2019,Series 2,Batter,Gerardo Parra,U
+517,2019,Series 2,Batter,Gregory Polanco,C
+518,2019,Series 2,Batter,Dwight Smith Jr.,U
+519,2019,Series 2,Batter,Jorge Soler,C
+520,2019,Series 2,Batter,Nick Williams,C
+521,2019,Series 2,Batter,Jesse Winker,R
+522,2019,Series 2,Batter,Lewis Brinson,C
+523,2019,Series 2,Batter,Adam Jones,C
+524,2019,Series 2,Batter,Ramon Laureano,U
+525,2019,Series 2,Batter,Jake Marisnick,C
+526,2019,Series 2,Batter,Cedric Mullins II,C
+527,2019,Series 2,Batter,A.J. Pollock,U
+528,2019,Series 2,Batter,David Dahl,U
+529,2019,Series 2,Batter,Curtis Granderson,C
+530,2019,Series 2,Batter,Bryce Harper,R
+531,2019,Series 2,Batter,JaCoby Jones,C
+532,2019,Series 2,Batter,Austin Meadows,C
+533,2019,Series 2,Batter,Raimel Tapia,C
+534,2019,Series 2,Batter,Nicky Delmonico,C
+535,2019,Series 2,Batter,Leury Garcia,C
+536,2019,Series 2,Batter,Marwin Gonzalez,C
+537,2019,Series 2,Batter,Chris Owings,C
+538,2019,Series 2,Batter,Neil Walker,C
+539,2019,Series 2,Batter,Ben Zobrist,C
+540,2019,Series 2,Batter,Shohei Ohtani,R
+I1,2019,Series 2,Pitcher,Matthew Boyd,UR
+I2,2019,Series 2,Pitcher,Lucas Giolito,UR
+I3,2019,Series 2,Pitcher,Matt Strahm,UR
+I4,2019,Series 2,Pitcher,Justin Verlander,UR
+I5,2019,Series 2,Pitcher,Ryan Pressly,UR
+I6,2019,Series 2,Batter,James McCann,UR
+I7,2019,Series 2,Batter,Gary Sanchez,UR
+I8,2019,Series 2,Batter,Josh Bell,UR
+I9,2019,Series 2,Batter,Tim Anderson,UR
+I10,2019,Series 2,Batter,Cody Bellinger,UR
+I11,2019,Series 2,Pitcher,Cliff Lee,UR
+I12,2019,Series 2,Pitcher,Jose Mesa,UR
+I13,2019,Series 2,Batter,Jim Thome,UR
+I14,2019,Series 2,Batter,Nap Lajoie,UR
+I15,2019,Series 2,Batter,Al Rosen,UR
+I16,2019,Series 2,Batter,Lou Boudreau,UR
+I17,2019,Series 2,Batter,Omar Vizquel,UR
+I18,2019,Series 2,Batter,Albert Belle,UR
+I19,2019,Series 2,Batter,Kenny Lofton,UR
+I20,2019,Series 2,Batter,Joe Jackson,UR
+I21,2019,Series 2,Batter,Roy Campanella,UR
+I22,2019,Series 2,Batter,Luis Aparicio,UR
+I23,2019,Series 2,Batter,Ron Santo,UR
+I24,2019,Series 2,Batter,Joe Morgan,UR
+I25,2019,Series 2,Pitcher,Rich Gossage,UR
+I26,2019,Series 2,Batter,Dale Murphy,UR
+I27,2019,Series 2,Batter,Eddie Murray,UR
+I28,2019,Series 2,Batter,Darryl Strawberry,UR
+I29,2019,Series 2,Batter,Ellis Burks,UR
+I30,2019,Series 2,Pitcher,Tim Lincecum,UR
+S1,2019,Series 1,Strategy,Ace In The Hole,R
+S2,2019,Series 1,Strategy,Ahead In The Count,C
+S3,2019,Series 1,Strategy,Back Burner,C
+S4,2019,Series 1,Strategy,Bang Bang,U
+S5,2019,Series 1,Strategy,Breathing Room 2.0,U
+S6,2019,Series 1,Strategy,Bridging The Gap,R
+S7,2019,Series 1,Strategy,Choke Artist,C
+S8,2019,Series 1,Strategy,Circus Act,C
+S9,2019,Series 1,Strategy,Claustrophobia,C
+S10,2019,Series 1,Strategy,Cut The Lights,U
+S11,2019,Series 1,Strategy,Daylight Play,C
+S12,2019,Series 1,Strategy,Down And Away,U
+S13,2019,Series 1,Strategy,Eat The Ball,C
+S14,2019,Series 1,Strategy,Effectively Wild,U
+S15,2019,Series 1,Strategy,Front Loaded,C
+S16,2019,Series 1,Strategy,Get Hyphy,C
+S17,2019,Series 1,Strategy,Grab And Go,C
+S18,2019,Series 1,Strategy,Grudge Match,U
+S19,2019,Series 1,Strategy,Hangin' K's,U
+S20,2019,Series 1,Strategy,High And Tight,U
+S21,2019,Series 1,Strategy,Jack In The Box,C
+S22,2019,Series 1,Strategy,Left For Dead,R
+S23,2019,Series 1,Strategy,Ordinary Hero,C
+S24,2019,Series 1,Strategy,Pitch Out,C
+S25,2019,Series 1,Strategy,Pump Fake,C
+S26,2019,Series 1,Strategy,Seems So Simple,C
+S27,2019,Series 1,Strategy,Set-Up Man 2.0,U
+S28,2019,Series 1,Strategy,Team Chemistry,C
+S29,2019,Series 1,Strategy,Throwing Strikes,C
+S30,2019,Series 1,Strategy,Bat On Ball,C
+S31,2019,Series 1,Strategy,Better 1 Out Than 2,C
+S32,2019,Series 1,Strategy,Chain Reaction,U
+S33,2019,Series 1,Strategy,Charged Up,C
+S34,2019,Series 1,Strategy,Chugga Chugga,C
+S35,2019,Series 1,Strategy,Clickbait,C
+S36,2019,Series 1,Strategy,Cloud Nine,C
+S37,2019,Series 1,Strategy,Disrespected,C
+S38,2019,Series 1,Strategy,Do Or Die,C
+S39,2019,Series 1,Strategy,Four Corners,C
+S40,2019,Series 1,Strategy,Hit The Road Jack,U
+S41,2019,Series 1,Strategy,Homeward Bound,C
+S42,2019,Series 1,Strategy,Meatball Masher 2.0,R
+S43,2019,Series 1,Strategy,Never Enough,C
+S44,2019,Series 1,Strategy,On Deck Circle,U
+S45,2019,Series 1,Strategy,Opposite Way,U
+S46,2019,Series 1,Strategy,Passed Ball,U
+S47,2019,Series 1,Strategy,Pitch Count,C
+S48,2019,Series 1,Strategy,Pulled It,U
+S49,2019,Series 1,Strategy,Rattled,C
+S50,2019,Series 1,Strategy,Reading The Ball 2.0,U
+S51,2019,Series 1,Strategy,Rib-Eye Steak 2.0,U
+S52,2019,Series 1,Strategy,Round 'Em Up,R
+S53,2019,Series 1,Strategy,Squash The Bug,R
+S54,2019,Series 1,Strategy,Stealing Signs,C
+S55,2019,Series 1,Strategy,Unsung Hero,C
+S56,2019,Series 1,Strategy,Walk This Way,C
+S57,2019,Series 1,Strategy,Wandering Eye,C
+S58,2019,Series 1,Strategy,Who Run It?,U
+S59,2019,Series 1,Strategy,Did His Homework 2.0,R
+S60,2019,Series 1,Strategy,Give And Take,R
+S61,2019,Series 1,Strategy,It's A Trap!,C
+S62,2019,Series 1,Strategy,The Long Con,C
+S63,2019,Series 1,Strategy,Losing Steam,U
+S64,2019,Series 1,Strategy,Seeing Is Believing,C
+S65,2019,Series 1,Strategy,Afternoon Shade,C
+S66,2019,Series 1,Strategy,The Dog Days,R
+S67,2019,Series 1,Strategy,Frozen Fingers,C
+S68,2019,Series 1,Strategy,Muddy Track,U
+S69,2019,Series 1,Strategy,Craig Counsell,R
+S70,2019,Series 1,Strategy,Alex Cora,C
+S71,2019,Series 2,Strategy,Get Your Game On!,R
+S72,2019,Series 2,Strategy,I Have The High Mound,U
+S73,2019,Series 2,Strategy,Hey Now!,U
+S74,2019,Series 2,Strategy,High Heater,U
+S75,2019,Series 2,Strategy,Kids These Days,U
+S76,2019,Series 2,Strategy,The Man Is Non-Stop,R
+S77,2019,Series 2,Strategy,Missed Stop Sign,U
+S78,2019,Series 2,Strategy,Pitcher's Count,U
+S79,2019,Series 2,Strategy,Phantom Tag,U
+S80,2019,Series 2,Strategy,Wire To Wire,R
+S81,2019,Series 2,Strategy,Hitter's Count,U
+S82,2019,Series 2,Strategy,Let The Kids Play,U
+S83,2019,Series 2,Strategy,Light Tower Power,R
+S84,2019,Series 2,Strategy,My Power Has Doubled,U
+S85,2019,Series 2,Strategy,Not Throwing Away My Shot,R
+S86,2019,Series 2,Strategy,Slump-Buster,U
+S87,2019,Series 2,Strategy,Speedy Gets Greedy,U
+S88,2019,Series 2,Strategy,Upon Further Review,U
+S89,2019,Series 2,Strategy,You Were The Chosen One,U
+S90,2019,Series 2,Strategy,You're An All-Star!,R
+S91,2019,Series 2,Strategy,Clutch It Up!,U
+S92,2019,Series 2,Strategy,Frozen Rope,R
+S93,2019,Series 2,Strategy,Go Play!,U
+S94,2019,Series 2,Strategy,Hello There,U
+S95,2019,Series 2,Strategy,Know Your Role,U
+S96,2019,Series 2,Strategy,Now This Is Baseball,U
+S97,2019,Series 2,Strategy,Oh I Don't Think So,U
+S98,2019,Series 2,Strategy,Prime-Time Performance,R
+P1,2019,Series 1,Stadium,Arizona Field,R
+P2,2019,Series 1,Stadium,Atlanta Park,C
+P3,2019,Series 1,Stadium,Baltimore Yards,U
+P4,2019,Series 1,Stadium,Boston Park,C
+P5,2019,Series 1,Stadium,Chicago (A) Field,C
+P6,2019,Series 1,Stadium,Chicago (N) Field,U
+P7,2019,Series 1,Stadium,Cincinnati Park,C
+P8,2019,Series 1,Stadium,Cleveland Field,R
+P9,2019,Series 1,Stadium,Colorado Field,C
+P10,2019,Series 1,Stadium,Detroit Park,U
+P11,2019,Series 1,Stadium,Houston Park,R
+P12,2019,Series 1,Stadium,Kansas City Stadium,C
+P13,2019,Series 1,Stadium,Los Angeles (A) Stadium,C
+P14,2019,Series 1,Stadium,Los Angeles (N) Stadium,U
+P15,2019,Series 1,Stadium,Miami Park,C
+P16,2019,Series 1,Stadium,Milwaukee Park,U
+P17,2019,Series 1,Stadium,Minnesota Field,C
+P18,2019,Series 1,Stadium,New York (A) Stadium,C
+P19,2019,Series 1,Stadium,New York (N) Field,U
+P20,2019,Series 1,Stadium,Oakland Stadium,C
+P21,2019,Series 1,Stadium,Philadelphia Park,C
+P22,2019,Series 1,Stadium,Pittsburgh Park,C
+P23,2019,Series 1,Stadium,San Diego Park,U
+P24,2019,Series 1,Stadium,San Francisco Park,U
+P25,2019,Series 1,Stadium,Seattle Field,C
+P26,2019,Series 1,Stadium,St. Louis Stadium,C
+P27,2019,Series 1,Stadium,Tampa Bay Field,U
+P28,2019,Series 1,Stadium,Texas Park,U
+P29,2019,Series 1,Stadium,Toronto Centre,C
+P30,2019,Series 1,Stadium,Washington Park,C
+P31,2019,Series 2,Stadium,Cleveland Stadium,R
+P32,2019,Series 2,Stadium,The Jake In Cleveland,R

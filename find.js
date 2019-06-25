@@ -24,12 +24,14 @@ module.exports = function find(slashCommand, message) {
             ...message,
             fileName: fileName,
             success: true,
+            distinct_id: message.user_id
         });
     }).catch(() => {
         slashCommand.replyPublic(message, `Card with the name "${name}" not found!`);
         global.mixpanel.track('findCard', {
             ...message,
             success: false,
+            distinct_id: message.user_id
         });
     });
 }
