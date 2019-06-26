@@ -19,7 +19,16 @@ module.exports = async function (slashCommand, message) {
             boosterPack = await series1();
     }
 
-    const formatCard = (card, index) => `${index + 1}. <${getCardUrl(card.name)}|${card.name}> Type: ${card.cardType} Rarity: ${card.rarity}`;
+    const formatCard = (c, index) => {
+        const space = () => `${index + 1}.${index + 1 < 10 ? '  ' : ''}`;
+        if (c.cardType === 'Batter' || c.cardType === 'Pitcher') {
+            return `${space()} [*${c.rarity}*] <${getCardUrl(c.name)}|${c.name}> - ${c.position} - ${c.cmdOb.trim()} - $${c.salary}`;
+        } else if (c.cardType === 'Strategy') {
+            return `${space()} [*${c.rarity}*] <${getCardUrl(c.name)}|${c.name}> - ${c.position}`;
+        } else if (c.cardType === 'Stadium') {
+            return `${space()} [*${c.rarity}*] <${getCardUrl(c.name)}|${c.name}>`;
+        }
+    };
 
     slashCommand.replyPublic(message, 'Booster Pack:\n' + boosterPack.map(formatCard).join('\n'));
 }
