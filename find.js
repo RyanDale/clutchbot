@@ -1,4 +1,5 @@
 const axios = require('axios');
+const getCardUrl = require('./utils/getCardUrl');
 
 module.exports = function find(slashCommand, message) {
     if (message.text === "" || message.text === "help") {
@@ -7,8 +8,7 @@ module.exports = function find(slashCommand, message) {
     }
 
     const name = message.text;
-    const fileName = name.replace(/[^a-z0-9+]+/gi, '').toLowerCase();
-    const cardUrl = `${process.env.CARD_URL}/${fileName}.png`;
+    const cardUrl = getCardUrl(name);
     axios.get(cardUrl).then(() => {
         const card = {
             attachments: [

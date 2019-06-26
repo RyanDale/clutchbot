@@ -1,8 +1,9 @@
 const { series1 } = require('./utils/boosterPacks');
+const getCardUrl = require('./utils/getCardUrl');
 
 module.exports = async function (slashCommand, message) {
-    if (message.text === "" || message.text === "help") {
-        slashCommand.replyPrivate(message, "Find a player or strategy card.");
+    if (message.text === "help") {
+        slashCommand.replyPrivate(message, "Generate a random booster pack.");
         return;
     }
 
@@ -17,5 +18,8 @@ module.exports = async function (slashCommand, message) {
         default:
             boosterPack = await series1();
     }
-    slashCommand.replyPublic(message, 'Pack Size' + boosterPack.length);
+
+    const formatCard = (card, index) => `${index + 1}. <${getCardUrl(card.name)}|${card.name}> Type: ${card.cardType} Rarity: ${card.rarity}`;
+
+    slashCommand.replyPublic(message, 'Booster Pack:\n' + boosterPack.map(formatCard).join('\n'));
 }

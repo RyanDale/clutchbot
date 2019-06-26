@@ -9,21 +9,6 @@ const getCard = async args => {
     return cards[0];
 }
 
-/*
-Clutch Digital 2019 Series 1 Pack Building Guide:
-
-Card 9 – One random common strat from 40 cards
-Card 8 – One random common pitcher from 41 cards
-Card 7 – One random common pitcher from 41 cards
-Card 6 – One random common pitcher from 41 cards
-Card 5 – One random common batter from 40 cards
-Card 4 – One random common batter from 41 cards
-Card 3 – One random common batter from 41 cards
-Card 2 – One random common from 176 cards – 120 common pitchers, 39 common strats, 17 common stadiums
-    (removing cards 9, 8, 7 and 6 from the possibilities)
-Card 1 – One random common from 238 or 239 cards – 119 or 120 common pitchers, 119 common batters
-    (removing cards 8, 7, 6, 5, 4, 3 and 2 from the possibilities) (if a pitcher was chosen for card 2 then its automatically a batter)
-*/
 const series1PackBuilder = {
     // Card 15 – One random rare from 38 cards – 25 rare pitchers, 10 rare strats, 3 rare stadiums
     async card15() {
@@ -107,22 +92,99 @@ const series1PackBuilder = {
             _id: { $nin: pack.map(card => card._id) }
         });
     },
+
+    // Card 9 – One random common strat from 40 cards
+    async card9(pack) {
+        return await getCard({
+            year: '2019',
+            series: 'Series 1',
+            rarity: 'C',
+            cardType: 'Strategy'
+        });
+    },
+
+    // Card 8 – One random common pitcher from 41 cards
+    async card8(pack) {
+        return await getCard({
+            year: '2019',
+            series: 'Series 1',
+            rarity: 'C',
+            cardType: 'Pitcher',
+            _id: { $nin: pack.map(card => card._id) }
+        });
+    },
+
+    // Card 7 – One random common pitcher from 41 cards
+    async card7(pack) {
+        return await this.card8(pack);
+    },
+
+    //Card 6 – One random common pitcher from 41 cards
+    async card6(pack) {
+        return await this.card8(pack);
+    },
+
+    // Card 5 – One random common batter from 40 cards
+    async card5(pack) {
+        return await getCard({
+            year: '2019',
+            series: 'Series 1',
+            rarity: 'C',
+            cardType: 'Batter',
+            _id: { $nin: pack.map(card => card._id) }
+        });
+    },
+
+    // Card 4 – One random common batter from 41 cards
+    async card4(pack) {
+        return await this.card5(pack);
+    },
+
+    // Card 3 – One random common batter from 41 cards
+    async card3(pack) {
+        return await this.card5(pack);
+    },
+
+    // Card 2 – One random common from 176 cards – 120 common pitchers, 39 common strats, 17 common stadiums
+    // (removing cards 9, 8, 7 and 6 from the possibilities)
+    async card2(pack) {
+        return await getCard({
+            year: '2019',
+            series: 'Series 1',
+            rarity: 'C',
+            cardType: {
+                '$in': ['Pitcher', 'Strategy', 'Stadium'],
+            },
+            _id: { $nin: pack.map(card => card._id) }
+        });
+    },
+
+    // Card 1 – One random common from 238 or 239 cards – 119 or 120 common pitchers, 119 common batters
+    //  (removing cards 8, 7, 6, 5, 4, 3 and 2 from the possibilities) (if a pitcher was chosen for card 2 then its automatically a batter)
+    async card1(pack) {
+        // pack[13] = Card 2
+        const cardType = pack[13].cardType === 'Pitcher' ? 'Batter' : { '$in': ['Pitcher', 'Batter'] };
+        return await getCard({
+            year: '2019',
+            series: 'Series 1',
+            rarity: 'C',
+            cardType,
+            _id: { $nin: pack.map(card => card._id) }
+        });
+    },
 };
 
 const series1 = async () => {
     let pack = [];
     for (let i = 0; i < 15; i++) {
         pack.push(await _.invoke(series1PackBuilder, `card${15 - i}`, pack));
-        if (i === 11) {
-            break;
-        }
     }
     const cards = await Card.find({
         year: '2019',
         series: 'Series 1'
     });
     console.log('pack', pack);
-    return pack;
+    return pack.reverse();
 }
 
 module.exports = {
