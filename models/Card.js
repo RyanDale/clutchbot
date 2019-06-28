@@ -32,6 +32,16 @@ const CardSchema = new Schema({
         required: true,
         enum: ['2017', '2018', '2019']
     },
+    position: {
+        type: String,
+        required: true
+    },
+    salary: {
+        type: Number
+    },
+    cmdOb: {
+        type: String
+    },
     created: {
         type: Date,
         default: Date.now,

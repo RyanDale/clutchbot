@@ -7,7 +7,7 @@ const Card = require('../models/Card');
 connectToDB().then(() => {
     const readStream = fs.createReadStream('./assets/cards.csv');
     let records = [];
-    readStream.pipe(csv(['cardNumber', 'year', 'series', 'cardType', 'name', 'rarity']))
+    readStream.pipe(csv(['cardNumber', 'year', 'series', 'cardType', 'position', 'name', 'rarity', 'cmdOb', 'salary']))
         .on('data', record => records.push(record))
         .on('end', () => {
             readStream.destroy();
